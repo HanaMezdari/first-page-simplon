@@ -1,0 +1,84 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.grid{
+    background-image: url("first-photo-simplon.png");
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2.4fr 2fr 50px;
+    grid-template-rows:  30px 1fr auto auto 100px ;
+    height: 640px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.child1{
+    
+    grid-column-start: 1;
+    grid-row-start:2 ; 
+}
+.child2{
+    
+    grid-column-start: 1;
+    grid-row-start:3 ;
+    font-size: 21px;
+    background-color: rgb(224, 230, 230);
+}
+.child3{
+
+    grid-column-start: 1;
+    grid-row-start:4 ;
+    font-size: 14px ;
+    font-weight: bold;
+    color:  rgb(124, 2, 26);
+    background-color: rgb(224, 230, 230);
+  
+}
+.child4{
+    grid-column-start:2;
+    grid-row: 2/span 5;
+    font-style: normal;
+    background-color: #fff;
+    margin-left: 30px;
+}
+.child4{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px 10px 
+    0px 0px;
+}
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+ input value{
+    
+    font-size: 14px;
+    text-align: center;
+    
+}
+#form{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(65, 63, 179, 0.925);
+    margin-top: 25px;
+}
+#taille{
+    font-size: 10px;
+    padding: 25px 0px 0px 0px ;
+}
+select{
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+}
